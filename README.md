@@ -20,7 +20,7 @@ This is a complete recipe to install prometheus and node exporter to laravel for
 ```BASH
 #!/bin/bash
 
-git clone git@github.com:vaugenwake/forge-prometheus-recipes.git forge-prometheus-recipes
+git clone https://github.com/vaugenwake/forge-prometheus-recipes.git forge-prometheus-recipes
 cd forge-prometheus-recipes
 ./install.sh
 # Optional, will delete install files from server when install completes
